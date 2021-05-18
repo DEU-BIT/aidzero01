@@ -1,7 +1,6 @@
-print("HELLO WORLD")
+value = int(input("숫자를 하나 입력하세요 : "))
 
-i=1
-s1="hi"
-s2='gu'
-
-print(s1,s2)
+if 10 < value < 100 :
+    print("10과 100사이")
+else :
+    print("100 이상")
